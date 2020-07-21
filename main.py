@@ -44,7 +44,7 @@ def openweb():
     webbrowser.open(url, new=new)
 
 
-button1 = Button(root, text="Support me on Github", command=openweb)
+button1 = Button(root, text="Follow me on Github", command=openweb)
 button1.place(x="350", y="15")
 
 input = Entry(root, width=75)
